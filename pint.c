@@ -1,4 +1,6 @@
 #include "monty.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * pint - Prints the value at the TOP of the stack.
@@ -14,6 +16,5 @@ void pint(stack_t **stack, unsigned int line_number)
 		exit(EXIT_FAILURE);
 	}
 
-	printf("%d.\n", (*stack)->n);
-
+	printf("%d\n", (*stack)->n);
 }
