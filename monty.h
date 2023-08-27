@@ -3,6 +3,7 @@
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
@@ -35,7 +36,6 @@ typedef struct instruction_s
 } instruction_t;
 
 /* Function Prototypes */
-
-
+void process_instruction(char *instruction, stack_t **stack, int line_number);
 
 #endif /* Monty */
