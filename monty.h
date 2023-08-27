@@ -36,6 +36,8 @@ typedef struct instruction_s
 } instruction_t;
 
 /* Function Prototypes */
+void push(stack_t **stack, int value);
+void pall(stack_t *stack);
 void process_instruction(char *instruction, stack_t **stack, int line_number);
 void pint(stack_t **stack, unsigned int line_number);
 void pop(stack_t **stack, unsigned int line_number);

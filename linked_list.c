@@ -43,5 +43,4 @@ void pall(stack_t *stack)
 		stack = stack->next;
 	}
 }
-
 /* Implement more linked list functions here as needed */
