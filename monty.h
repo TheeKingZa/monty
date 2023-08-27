@@ -37,5 +37,7 @@ typedef struct instruction_s
 
 /* Function Prototypes */
 void process_instruction(char *instruction, stack_t **stack, int line_number);
-
+void pint(stack_t **stack, unsigned int line_number);
+void pop(stack_t **stack, unsigned int line_number);
+void swap(stack_t **stack, unsigned int line_number);
 #endif /* Monty */
