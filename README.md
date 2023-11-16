@@ -31,4 +31,4 @@
   * Data Buffering: Queues can be used to buffer data in scenarios like asynchronous communication.
 ---
 
-[^](monty)
+[^](#monty)
